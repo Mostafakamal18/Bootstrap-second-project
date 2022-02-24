@@ -1,8 +1,25 @@
 a{
     text-decoration: none;
+    
+    
+}
+li{
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+ 
+}
+h5 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ff8278;
 }
 
-
+h1 {
+    font-size: 54px;
+    font-weight: 800;
+    color: #003c46;
+}
 
 
 
@@ -13,4 +30,22 @@ a{
 }
 .color{
     background-color:rgb(255, 130, 120); ;
+}
+.menu{
+    margin-left: 154px;
+}
+.button a{
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    background: #ff8278;
+    color: #ffffff;
+    border-radius: 40px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.button .more{
+    color: #ff8278;
+    background: #ffffff;
 }
