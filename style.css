@@ -49,3 +49,12 @@ h1 {
     color: #ff8278;
     background: #ffffff;
 }
+.doller-top h5::after{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 3px;
+    background: #ff8278;
+    left: 44%;
+    bottom: -10px;
+}
