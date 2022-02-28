@@ -77,4 +77,12 @@ h1 {
     margin-left: 90px;
     max-width: 475px;
 }
+/* ------- */
+.man-logo img{
+    margin-bottom: -29px;
+}
+.acordion-section{
+    background-color: #DCDCDC;
+    padding: 100px;
+}
 
