@@ -63,3 +63,18 @@ h1 {
 }
 
 
+/* --------- */
+.tv-top h5::after{
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    background: #ff8278;
+    left: 46%;
+    bottom: -10px;
+}
+.tv-content{
+    margin-left: 90px;
+    max-width: 475px;
+}
+
