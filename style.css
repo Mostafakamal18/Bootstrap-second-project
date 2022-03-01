@@ -78,11 +78,98 @@ h1 {
     max-width: 475px;
 }
 /* ------- */
+.acordion-section{
+    background-color: #DCDCDC;
+}
 .man-logo img{
     margin-bottom: -29px;
 }
-.acordion-section{
-    background-color: #DCDCDC;
-    padding: 100px;
+.accordion-button:not(.collapsed)::after {
+    background-image: url(img/jj.png);
+    transform: rotate(0deg);
+}
+.accordion-button::after {
+   
+    background-image: url(img/jj.png);
+    
+}
+/* ----------- */
+.form {
+    background-color: #dcdcdc;
+    padding: 80px 50px;
+    border-radius: 50px;
 }
 
+.footer-sectioon .containar{
+   position: relative;
+}
+.footer-sectioon .images{
+    position: absolute;
+    content: "";
+    background: url("/img/Group\ 1064.png");
+    width: 170px;
+    height: 170px;
+    top: -260px;
+    right: 0;
+}
+.footer-sectioon{
+    margin-top: 200px;
+    padding: 115px 0px;
+    background: #003C46;
+}
+.footer-sectioon .conteinar p:hover{
+    color:rgb(161, 154, 154);
+    transition: 1s;
+}
+.icon a u:hover{
+    color: rgb(167, 152, 152);
+    transition: 1s;
+}
+.frist-footer-parrent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.logo-img img{
+    margin-right:25px ;
+}
+.icon img{
+    margin-right: 20px;
+}
+.icon a{
+    color: white;
+}
+.second-row-parrent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+.jamela p{
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    
+}
+.content a:hover{
+    color: rgb(167, 152, 152);
+    transition: 1s;
+}
+.content a{
+    color: white;
+}
+.content .marg{
+    margin-left: 70px;
+}
+.button a{
+background-color: #ff8278;
+padding: 10px 15px;
+color: white;
+font-weight: 700;
+border-radius: 25px;
+}
+.button a:hover{
+    color: red;
+    transition: 1s;
+}
